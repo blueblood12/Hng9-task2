@@ -1,0 +1,10 @@
+name: hngtask
+on: workflow_dispatch
+jobs:
+  hngtask:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: printing
+        run: echo "hello world"
+      - name: ending
+        run: echo "nice one"
